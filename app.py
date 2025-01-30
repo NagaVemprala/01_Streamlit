@@ -9,7 +9,10 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+# load_dotenv() # Use this when running in local 
+
+# Use the below option for cloud-based or web applications 
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 def process_documents(uploaded_file):
     # Save uploaded file temporarily
