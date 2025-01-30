@@ -27,3 +27,9 @@ This Streamlit app allows you to upload and interact with text files up to 200MB
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/NagaVemprala/01_Streamlit.git](https://github.com/NagaVemprala/01_Streamlit.git)
+
+   ## Deployment and License
+
+* **Cloud Deployment:** The app is deployed at [https://01-basic-txt-chatllm.streamlit.app/](https://01-basic-txt-chatllm.streamlit.app/). Click on the link to start interacting with your text file.
+
+* **License:** MIT License
